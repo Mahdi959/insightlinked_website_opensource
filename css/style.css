@@ -624,7 +624,7 @@ h6,
     justify-content: center;
     align-items: center;
     width: 200px; /* Fixed width */
-    height: 60px; /* Fixed height */
+    height: 70px; /* Fixed height */
     font-size: 16px;
     border-radius: 50px; /* Rounded buttons (bubble-like) */
     margin-bottom: 20px; /* Space between buttons */
@@ -653,5 +653,20 @@ h6,
     }
     100% {
         text-shadow: 0 0 15px rgb(98, 96, 96), 0 0 30px rgba(255, 255, 255, 0.8);
+    }
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 768px) {
+    .custom-btn {
+        width: 100%; /* Make buttons responsive */
+        height: auto; /* Allow height to adjust automatically */
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+    
+    .row .col-6 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
     }
 }
