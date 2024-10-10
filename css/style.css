@@ -593,7 +593,7 @@ h6,
 }
 
 .bg-image-web-design {
-    background-image: url('../img/web_design.jpg'); /* Replace with your image path */
+    background-image: url('../img/web_design.svg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
