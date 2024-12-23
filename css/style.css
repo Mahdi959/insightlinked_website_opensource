@@ -630,15 +630,15 @@ h6,
     margin-bottom: 20px; /* Space between buttons */
     text-align: center;
     border-width: 5px;
-    color: #fff;
-    background-color: #36454F; /* Dark background for contrast */
+    color: #4682b4;
+    background-color: #fbfbfb; /* Dark background for contrast */
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.7); /* Glowing text */
     transition: all 0.3s ease; /* Smooth transition for hover */
 }
 
 .custom-btn:hover {
     background-color: #f8f9fa; /* Hover effect for background */
-    color: #000; /* Text color change on hover */
+    color: #0c7ce4; /* Text color change on hover */
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); /* Glowing button effect */
     text-shadow: 0 0 15px rgba(255, 255, 255, 1), 0 0 25px rgba(255, 255, 255, 0.7); /* Stronger glow on hover */
 }
