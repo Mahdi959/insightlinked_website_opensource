@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #36454F;
-    --secondary: #c2b6b6;
+    --primary: #4682b4;
+    --secondary: #f1f3f0;
     --light: #F6F4F9;
     --dark: #04000B;
 }
@@ -117,7 +117,9 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--secondary) !important;
+  
+    border-bottom: 4px solid #9acffa; /* Adds a blue border under the active link */
+
 }
 
 .navbar-light .navbar-brand h1 {
